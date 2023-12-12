@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.topo-total {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: auto;
+    top: 30px;
+    padding-bottom: 40px;
+}
+
+.topo {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.nav1 {
+    margin: auto;
+    justify-content: center;
+    right: 10%;
+    font-size: 23px;
+}
+
+.nav_li1 {
+    /*Alterar fonte depois para branco*/
+    display: inline;
+    margin: 0 0 0 30px;
+}
+
+.textoContent {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.backgroundServicos {
+    background-color: #8e7b57;
+    width: 100%;
+    height: 750px;
+    margin: auto;
+}
+
+.d-inline {
+    display: inline-flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    word-break: keep-all;
+}
+
+.parag {
+    color: white;
+    font-size: 37px;
+}
+
+.buttonEdit {
+    font: 25px "calibri";
+    font-weight: normal;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding: 8px;
+    width: 220px;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+
+.buttonEdit2 {
+    background-color: #f47f34;
+    padding: 10px;
+}
+
+.buttonEdit3 {
+    background-color: #8e7b57;
+    padding: 10px;
+}
+
+.BoasVindas {
+    background-color: #746547;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.tituloVindas{
+    font-size: 50px;
+    color: white;
+}
+.vejaP{
+    font-size: 50px;
+}
+
+.tituloLaranja {
+    color: orange;
+}
+
+.quatroServicos {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafoBoas{
+    font-size: 25px;
+    color: white;
+    width: 100%;
+}
+
+.d-inline2 {
+    display: inline-flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #ab7a57;
+    width: 95%;
+}
+
+.d-inline3 {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 100px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.formGeral {
+    background-color: #f47f34;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px;
+}
+
+.formNormal {
+    text-align: center;
+    font-size: 33px;
+    color: white;
+}
+
+.formEspacamento {
+    display: flex;
+    gap: 30px;
+}
+
+.input1 {
+    background-color: #f47f34;
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 30px 5px 30px;
+}
+
+.input2 {
+    background-color: #f47f34;
+    width: 600px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 30px 5px 30px;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.footerPagina {
+    background: #746447;
+    width: 100%;
+    height: 200px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    padding: 30px;
+}
+
+.criacao {
+    font-size: 15px;
+}
